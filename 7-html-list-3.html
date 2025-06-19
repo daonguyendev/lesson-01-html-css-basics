@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Customize List</title>
+  </head>
+  <body>
+    <h4>Ordered List with multiple types:</h4>
+    <ol>
+      <li type="a">Frontend</li>
+      <li type="A">Backend</li>
+      <li type="i">Database</li>
+      <li type="I">FullStack</li>
+      <li type="1">DevOps</li>
+    </ol>
+
+    <h4>Un-ordered List with multiple types:</h4>
+    <ol start="3" type="a">
+      <li>This is the 3rd position (character c)</li>
+      <li value="5">This is the 5th position (character e)</li>
+      <ol start="7" type="1">
+        <li>Lists can also be nested:</li>
+        <ol type="I">
+          <li value="2">We can nest infinitely deep</li>
+          <li>...</li>
+        </ol>
+      </ol>
+    </ol>
+  </body>
+</html>
